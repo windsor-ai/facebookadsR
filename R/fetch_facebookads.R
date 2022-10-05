@@ -50,6 +50,6 @@ fetch_facebookads <-
       return(as.data.frame(json_data$data))
     }
 
-    stop(paste("Invalid response fromthe API:", json_data))
+    stop(paste("Invalid response from the API:", json_data))
 
   }
