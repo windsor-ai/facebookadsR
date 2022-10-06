@@ -11,7 +11,7 @@
 #' @export
 #'
 #' @examples
-#' #' \dontrun{
+#' \dontrun{
 #' fetch_facebookads <- (api_key = "your api key",
 #' date_from = "2022-10-01",
 #' date_to = "2022-10-02",
@@ -45,6 +45,18 @@ fetch_facebookads <-
         "&date_from=", date_from, "&date_to=", date_to
       )
     )
+
+    if("clicks" %in% fields){
+      json_data$data$clicks <- as.numeric(json_data$data$clicks)
+    }
+
+    if("spend" %in% fields){
+      json_data$data$spend <- as.numeric(json_data$data$spend)
+    }
+
+    if("impressions" %in% fields){
+      json_data$data$impressions <- as.numeric(json_data$data$impressions)
+    }
 
     if (typeof(json_data) == "list" && "data" %in% names(json_data)) {
       return(as.data.frame(json_data$data))
