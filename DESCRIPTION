@@ -1,11 +1,11 @@
 Type: Package
 Package: facebookadsR
-Title: Access to facebook Ads via the 'Windsor.ai' API
+Title: Access to Facebook Ads via the 'Windsor.ai' API
 Version: 0.1.0
 Authors@R: c(
     person("Pablo", "Sanchez", email = "pablosama@outlook.es", role = c("cre","aut")),
     person("Windsor.ai", email = "admin@windsor.ai", role = "cph"))
-Description: Collect  marketing data from facebook Ads using the 'Windsor.ai' API <https://www.windsor.ai/api-fields/>.
+Description: Collect  marketing data from facebook Ads using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
 URL: https://windsor.ai/

@@ -3,7 +3,7 @@
 \docType{data}
 \name{my_facebookads_data}
 \alias{my_facebookads_data}
-\title{Sample data of facebook ads from the Windsor API.}
+\title{Sample data of Facebook ads from the Windsor API.}
 \format{
 A data frame with 164 rows and 5 variables:
 \describe{
@@ -22,6 +22,6 @@ my_facebookads_data
 }
 \description{
 A dataset containing sample facebook ads data
-fetched from windsor.ai API. See more at: https://www.windsor.ai/api-fields/
+fetched from windsor.ai API. See more at:  https://windsor.ai/
 }
 \keyword{datasets}
