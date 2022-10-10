@@ -15,7 +15,7 @@ A data frame with 164 rows and 5 variables:
 }
 }
 \source{
-\url{https://www.windsor.ai/}
+\url{https://windsor.ai/}
 }
 \usage{
 my_facebookads_data

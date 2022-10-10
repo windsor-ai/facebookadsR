@@ -11,5 +11,5 @@
 #'   \item{impressions}{impressions data}
 #'   \item{date}{date}
 #' }
-#' @source \url{https://www.windsor.ai/}
+#' @source \url{https://windsor.ai/}
 "my_facebookads_data"

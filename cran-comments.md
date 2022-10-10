@@ -26,3 +26,20 @@ Title modified as requierd:
    'Access to facebook Ads via the 'Windsor.ai' API'
    In title case that is:
    'Access to Facebook Ads via the 'Windsor.ai' API'
+
+## Third submission
+
+URLs modified as required:
+
+   Found the following (possibly) invalid URLs:
+     URL: https://www.windsor.ai/ (moved to https://windsor.ai/)
+       From: man/my_facebookads_data.Rd
+             inst/doc/tutorial.html
+             README.md
+       Status: 301
+       Message: Moved Permanently
+     URL: https://www.windsor.ai/api-fields/ (moved to
+https://windsor.ai/api-fields/)
+       From: README.md
+       Status: 301
+       Message: Moved Permanently
