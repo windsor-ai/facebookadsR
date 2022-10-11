@@ -5,14 +5,14 @@
 #' @param date_from The date from which to start getting data in format YYYY-MM-DD
 #' @param date_to The date until which to start getting data in format YYYY-MM-DD
 #' @param fields he fields fetched from the API for a given connector
-#' See https://www.windsor.ai/api-fields/ for details.
+#' See https://windsor.ai/api-fields/ for details.
 #'
 #' @return A data frame with the desired data
 #' @export
 #'
 #' @examples
 #' \dontrun{
-#' fetch_facebookads <- (api_key = "your api key",
+#' my_facebookads_data <- fetch_facebookads(api_key = "your api key",
 #' date_from = "2022-10-01",
 #' date_to = "2022-10-02",
 #' fields = c("campaign", "clicks",
@@ -26,10 +26,10 @@ fetch_facebookads <-
                       "spend", "impressions", "date")) {
     if(is.null(date_from) | is.null(date_to)){
       if(is.null(date_from)){
-        print("date_from not defined. Extracting data for the last week as default.")
+        warning("date_from not defined. Extracting data for the last week as default.")
       }
       if(is.null(date_to)){
-        print("date_to not defined. Extracting data for the last week as default.")
+        warning("date_to not defined. Extracting data for the last week as default.")
       }
       date_to <- Sys.Date()
       date_from <- Sys.Date() - 7
