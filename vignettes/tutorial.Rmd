@@ -51,7 +51,7 @@ str(my_facebookads_data)
 
 ## Analyzing our Facebook  and Facebook ad campaign data 
 
-Now we can analyze our Facaebook Ads data. For instance, let's compare the two campaings we have to see which one performed better the last 100 days. 
+Now we can analyze our Facebook Ads data. For instance, let's compare the two campaings we have to see which one performed better the last 100 days. 
 
 ```{r}
 ggplot(my_facebookads_data, aes(y = clicks, fill = campaign)) + geom_boxplot()
